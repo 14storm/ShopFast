@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+  <link rel="stylesheet" href="shopfast.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="shortcut icon" href="./images/Group 8.svg" type="image/x-icon">
+  
+</head>
+
+<body>
+  <div id="cartPopup" class="cart-popup"></div>
+  <div class="topbar">
+    <a href="#">Sell on ShopFast</a>
+    <a href="#">Help Center</a>
+    <a href="#">Track Order</a>
+  </div>
+
+  <nav class="navbar">
+    <a class="logo" href="#"><img src="./images/Group 8.svg" alt="" style="width: 160px;"></a>
+
+    <div class="search-wrap">
+      <button class="scan-btn" title="Search by image">
+        <i class="ti ti-qrcode"></i>
+      </button>
+      <input type="text" placeholder="Search products, brands and categories" />
+      <button class="search-btn">Search</button>
+    </div>
+
+    <div class="nav-actions">
+
+      <a class="lang-btn" href="#">
+        <span style="font-size:1.1rem">🇳🇬</span>
+        <div class="lang-text">
+          <strong>EN</strong>
+          <small>NGN</small>
+        </div>
+        <span style="font-size:0.6rem;opacity:0.5;margin-left:2px">▼</span>
+      </a>
+
+      <div class="nav-divider"></div>
+
+      <a class="nav-btn" href="#">
+        <i class="ti ti-user"></i>
+        <span class="lbl">Sign in / Register</span>
+      </a>
+
+      <a class="nav-btn" href="#">
+        <i class="ti ti-help-circle"></i>
+        <span class="lbl">Help</span>
+      </a>
+
+      <div class="nav-divider"></div>
+
+      <a class="nav-btn cart-wrap" href="#">
+        <i class="ti ti-shopping-bag"></i>
+        <span class="lbl">Cart</span>
+        <div class="cart-badge">0</div>
+      </a>
+
+      <div class="nav-divider"></div>
+
+      <!-- THEME TOGGLE -->
+      <button class="toggle-btn" id="themeToggle" title="Switch theme">
+        <i id="themeIcon" class="ti ti-sun"></i>
+      </button>
+
+    </div>
+  </nav>
+
+  <nav class="catnav">
+    <a class="cat-all" href="#">
+      <i class="ti ti-menu-2"></i>
+      All Categories
+    </a>
+    <a class="cat-link hot" href="#">Bundle deals</a>
+    <a class="cat-link active" href="#">Choice</a>
+    <a class="cat-link" href="#">SuperDeals</a>
+    <a class="cat-link" href="#">Business</a>
+    <a class="cat-link" href="#">Automotive</a>
+    <a class="cat-link" href="#">Appliances</a>
+    <a class="cat-link" href="#">Women's Clothing</a>
+    <a class="cat-link" href="#">Men's Clothing</a>
+    <a class="cat-link" href="#">Electronics</a>
+    <a class="cat-link" href="#">More ▾</a>
+  </nav>
+
+
+
+  <div class="ads">
+    <!-- <video src="./videos/6912294_Motion_Graphics_Motion_Graphic_3840x2160 (1).mp4" muted loop autoplay></video> -->
+    <video src="./videos/0_Black_Friday_Sale_3840x2160.mp4" autoplay loop muted></video>
+  </div>
+
+  <div id="display">
+    <!-- <p class="errormsg">oops</p> -->
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="#"><img src="./images/Group 8.svg" alt="" style="width: 100px;"></a>
+        <p>Your one-stop destination for quality products at the best prices, delivered fast.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Track Order</a>
+        <a href="#">Returns</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 SHOPFAST. All rights reserved.</span>
+      <div class="socials">
+        <a href="#">f</a>
+        <a href="#">in</a>
+        <a href="#">tw</a>
+        <a href="#">ig</a>
+      </div>
+    </div>
+  </footer>
+  <script src="shopfast.js"></script>
+</body>
+
+</html>
